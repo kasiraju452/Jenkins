@@ -1,0 +1,19 @@
+package lab1;
+
+public class lab1_1 {
+	public static void main(String[] args) {
+		int a=1;
+		int b=1;
+		double fsum=0;
+		for(int i=1;i<=20;i++){
+			System.out.print(a+" ");
+			fsum=fsum+a;
+            int sum = a + b;
+            a = b;
+            b = sum;
+		}
+		System.out.println();
+		System.out.println(fsum/20);
+	}
+
+}
